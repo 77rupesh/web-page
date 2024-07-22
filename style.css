@@ -1,0 +1,250 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html,body{
+width: 100%;
+height: 100%;
+}
+.container{
+width: 100%;
+height: 100%;
+position: relative;
+overflow: hidden;
+
+}
+
+
+
+
+.left{
+width: 33%;
+height: 100%;
+background-color: rgba(198, 60, 32, 0.916);
+text-align: center;
+
+}
+.left h1{ padding-top: 30px;
+font-size: 85px;
+font-family: Arial, Helvetica, sans-serif;
+color: antiquewhite;
+font-family: poppins;
+line-height: 70px;
+}
+
+.left span{
+font-family: Sacramento;
+
+}
+.left .anchor{
+    padding-top: 70px;
+}
+
+.left .anchor a{
+    display:block;
+    color: white;
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.left .image{
+
+width: 20%;
+height: 15%;
+background-image: url(https://images.unsplash.com/photo-1635620201965-38f8ae7dd9df?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXxVQkFLb1Q4cTFYUXx8ZW58MHx8fHx8);
+background-size: cover;
+background-repeat: no-repeat;
+margin-left: 40%;
+margin-top: 15%;
+border-radius: 50%;
+}
+.left button{
+width: 35%;
+height: 5%;
+color: white;
+background-color: transparent;
+border: 1px solid white;
+border-radius: 20px;
+padding-right: 22px;
+font-size: 12px;
+}
+.ri-corner-down-left-fill{
+position: relative;
+right: 8%;
+top: .7%;
+font-size:15px ;
+font-weight: 100;
+color: white;
+
+}
+.left a{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+.left-side{
+position: absolute;
+left: 1%;
+top: 45%;
+color: white;
+background-color: white;
+font-size: 10px;
+}
+.right-side{
+position: absolute;
+left: 31%;
+top: 45%;
+color: white;
+background-color: white;
+font-size: 10px;
+}
+
+
+.right{
+
+width: 67%;
+height: 100%;
+background-color: antiquewhite;
+position: absolute;
+top: 0;
+left: 33%;
+}
+.right .one{
+width: 100%;
+height: 50%;
+margin: 10px;
+border-bottom: dashed 1px rgba(249, 53, 3, 0.977);
+text-align: right;
+position: relative;
+}
+.right .nav{
+margin-right: 30px;
+
+}
+.nav .FR{
+margin-right: 40PX;
+color: rgb(255, 69, 1);
+}
+.nav a{
+text-decoration: none;
+color: rgb(248, 152, 110);
+margin-right: 5px;
+}
+.nav button{
+width: 70px;
+height: 30px;
+border-radius: 20px;
+border: none;
+background-color: rgb(228, 108, 71);
+color: white;
+}
+.mainbox{
+
+width: 50%;
+height: 50%;
+display: inline;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+
+}
+.box1{
+width: 13%;
+height: 30%;
+border: 1px solid brown;
+display: inline-block;
+position: absolute;
+top: 33%;
+left: 20%;
+border-radius: 7px;
+text-align: center;
+padding-top: 13px;
+}
+
+.box2{
+    width: 13%;
+    height: 30%;
+    border: none;
+    
+    display: inline-block;
+    position: absolute;
+    top: 33%;
+    left: 35%;
+    left: 20%;
+    
+}    
+.box3{
+width: 13%;
+    height: 30%;
+    border: 1px solid brown;
+    display: inline-block;
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    border-radius: 7px;
+    text-align: center;
+padding-top: 12px;
+}
+.box4{
+    width: 13%;
+    height: 30%;
+    border: 1px solid brown;
+display: inline-block;
+position: absolute;
+top: 33%;
+left: 65%;
+border-radius: 7px;
+text-align: center;
+padding-top: 12px;
+}
+.two{
+
+    position: relative;
+}
+.two .nav{
+    width: 10%;
+    height: 10%;
+    color: rgb(254, 87, 15);
+    display: inline;
+    margin-left: 2%;
+}
+.nav nav{
+    position: absolute;
+    right: 2%;
+    top: 0;
+    color: rgb(249, 81, 3);
+
+}
+.two p{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 12px;
+    color: rgba(166, 60, 34, 0.879);
+}
+
+.two .image{
+margin-left: 10px;
+width: 48%;
+height: 140px;
+background-image: url(https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?q=80&w=1948&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+background-size: cover;
+background-repeat: no-repeat;
+}
+.two .photo{
+width: 48%;
+height: 140px;
+background-image: url(https://images.unsplash.com/photo-1469474968028-56623f02e42e?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+background-size: cover;
+background-repeat: no-repeat;
+position: absolute;
+bottom: 0;
+right:1% ;
+}
+
+
+
+
+
